@@ -4,6 +4,9 @@ import { Inicio } from "./components/Inicio.js";
 import { QuienesSomos } from "./components/quienes-somos.js";
 import { Destino } from "./components/Destino.js";
 import { Servicios } from "./components/Servicios.js";
+import { Precios } from "./components/Precios.js";
+import { Contacto } from "./components/Contacto.js";
+import { Footer } from "./components/Footer.js";
 
 document.querySelector("#app").append(
   NavBar(),
@@ -11,4 +14,7 @@ document.querySelector("#app").append(
   QuienesSomos(),
   Destino(),
   Servicios(),
+  Precios(),
+  Contacto(),
+  Footer()
 );
