@@ -4,14 +4,14 @@ export function Destino() {
   destino.setAttribute("id", "destino");
 
   destino.innerHTML = `
-    <div class="container">
+    <div class="container pb-5">
       <h2 class="text-center mb-4">Destino</h2>
       <p class="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="row align-items-center ">
         <div class="col-lg-6 text-center">
           <img src="https://placehold.co/600x400" alt="About Us" class="img-fluid rounded my-2">
         </div>
-        <div class="col-lg-6 text-center text-lg-start"> 
+        <div class="col-lg-6 text-center text-lg-start my-3"> 
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
@@ -24,6 +24,7 @@ export function Destino() {
         </div>
       </div>
     </div>
+    <p class="display-6 text-center my-4">¡Vive la experiencia en Fundo Dos Hermanos!</p>
     <div id="carousel_destino" class="carousel slide mt-5" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
