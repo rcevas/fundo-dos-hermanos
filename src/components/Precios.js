@@ -18,7 +18,7 @@ export function Precios() {
                 <li>Por persona - diario</li>
                 <li>Guía experto de la zona</li>
                 <li>Equipo proporcionado</li>
-                <li>Estadía en puestode montaña</li>
+                <li>Estadía en puesto de montaña</li>
                 <li>Comidas incluidas</li> 
                 <li>Apoyo de caballares</li>                 
               </ul>
@@ -36,7 +36,7 @@ export function Precios() {
                 <li>Por persona - diario</li>
                 <li>Guía experto de la zona</li>
                 <li>Todo el equipo de pesca proporcionado</li>  
-                <li>Estadía en puestode montaña</li>              
+                <li>Estadía en puesto de montaña</li>              
                 <li>Comidas incluidas</li>
                 <li>Apoyo de caballares</li>     
               </ul>
