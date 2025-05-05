@@ -1,23 +1,15 @@
 export function Inicio() {
 
-  const inicio = document.createElement('div');
+  const inicio = document.createElement('header');
+  inicio.setAttribute("id", "inicio");
 
   inicio.innerHTML = `
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://placehold.co/1920x720" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h1>First slide label</h1>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-      </div>
-    </div>
- 
+    <div class="container text-white">
+      <h1 class="display-3">Explora lo salvaje</h1>
+      <p class="lead">Experiencias premium de caza y pesca</p>
+      <a href="#contact" class="btn btn-outline-light btn-lg mt-4">Reserva ahora</a>
+    </div> 
   `;
-
 
   return inicio;
 }
