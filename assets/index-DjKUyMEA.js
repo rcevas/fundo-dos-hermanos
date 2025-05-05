@@ -28,7 +28,7 @@
       </div>
   `,e}function r(){const e=document.createElement("header");return e.setAttribute("id","inicio"),e.innerHTML=`
     <div class="container text-white">
-      <p class="display-6">TURISMO CINEGÉTICOEN LA PATAGONIA CHILENA</p>
+      <p class="display-6">TURISMO CINEGÉTICO EN LA PATAGONIA CHILENA</p>
       <p class="display-6">Explora lo salvaje</p>
       <p class="lead">Experiencias premium de caza y pesca</p>
       <a href="#contacto" class="btn btn-outline-light btn-lg mt-4">Reservar ahora</a>
