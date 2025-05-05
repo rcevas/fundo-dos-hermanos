@@ -11,9 +11,9 @@ export function NavBar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">Quienes Somos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#location">Destino</a></li>
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#quienes_somos">Quienes Somos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destino">Destino</a></li>
 
             <!-- Dropdown Menu for Services -->
             <li class="nav-item dropdown">
@@ -21,13 +21,13 @@ export function NavBar() {
                 Servicios
               </a>
               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="servicesDropdown">
-                <li><a class="dropdown-item" href="#services">Caza</a></li>
-                <li><a class="dropdown-item" href="#services">Pesca</a></li>
+                <li><a class="dropdown-item" href="#servicios">Caza</a></li>
+                <li><a class="dropdown-item" href="#servicios">Pesca</a></li>
               </ul>
             </li>
 
-            <li class="nav-item"><a class="nav-link" href="#pricing">Precio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#precios">Precios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
           </ul>
         </div>
       </div>
