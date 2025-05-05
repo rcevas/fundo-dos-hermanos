@@ -1,7 +1,6 @@
 export function Servicios() {
   const servicios = document.createElement("section");
   servicios.setAttribute("id", "servicios");
-  /*   servicios.classList.add("bg-light"); */
 
   servicios.innerHTML = `
     <div class="container">
