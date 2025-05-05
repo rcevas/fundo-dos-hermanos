@@ -20,18 +20,7 @@ export function NavBar() {
             <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
             <li class="nav-item"><a class="nav-link" href="#quienes_somos">Quienes Somos</a></li>
             <li class="nav-item"><a class="nav-link" href="#destino">Destino</a></li>
-
-            <!-- Dropdown Menu for Services -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#services" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Servicios
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="servicesDropdown">
-                <li><a class="dropdown-item" href="#servicios">Caza</a></li>
-                <li><a class="dropdown-item" href="#servicios">Pesca</a></li>
-              </ul>
-            </li>
-
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
             <li class="nav-item"><a class="nav-link" href="#precios">Precios</a></li>
             <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
           </ul>
