@@ -1,6 +1,5 @@
 export function Destino() {
-
-  const destino = document.createElement('section');
+  const destino = document.createElement("section");
   destino.setAttribute("id", "destino");
 
   destino.innerHTML = `

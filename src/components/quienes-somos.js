@@ -1,6 +1,5 @@
 export function QuienesSomos() {
-
-  const quienesSomos = document.createElement('section');
+  const quienesSomos = document.createElement("section");
   quienesSomos.setAttribute("id", "quienes_somos");
   quienesSomos.classList.add("bg-light");
 

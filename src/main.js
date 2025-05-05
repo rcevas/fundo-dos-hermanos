@@ -1,5 +1,5 @@
 import "./style.css";
-import { NavBar } from './components/NavBar.js';
+import { NavBar } from "./components/NavBar.js";
 import { Inicio } from "./components/Inicio.js";
 import { QuienesSomos } from "./components/quienes-somos.js";
 import { Destino } from "./components/Destino.js";
@@ -8,13 +8,15 @@ import { Precios } from "./components/Precios.js";
 import { Contacto } from "./components/Contacto.js";
 import { Footer } from "./components/Footer.js";
 
-document.querySelector("#app").append(
-  NavBar(),
-  Inicio(),
-  QuienesSomos(),
-  Destino(),
-  Servicios(),
-  Precios(),
-  Contacto(),
-  Footer()
-);
+document
+  .querySelector("#app")
+  .append(
+    NavBar(),
+    Inicio(),
+    QuienesSomos(),
+    Destino(),
+    Servicios(),
+    Precios(),
+    Contacto(),
+    Footer()
+  );

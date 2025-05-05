@@ -1,6 +1,5 @@
 export function Inicio() {
-
-  const inicio = document.createElement('header');
+  const inicio = document.createElement("header");
   inicio.setAttribute("id", "inicio");
 
   inicio.innerHTML = `

@@ -1,7 +1,12 @@
 export function NavBar() {
-
-  const nav = document.createElement('nav');
-  nav.classList.add("navbar", "navbar-expand-lg", "navbar-dark", "bg-dark", "fixed-top");
+  const nav = document.createElement("nav");
+  nav.classList.add(
+    "navbar",
+    "navbar-expand-lg",
+    "navbar-dark",
+    "bg-dark",
+    "fixed-top"
+  );
 
   nav.innerHTML = `
       <div class="container">
