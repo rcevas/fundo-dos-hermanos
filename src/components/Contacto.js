@@ -1,7 +1,7 @@
 export function Contacto() {
   const contacto = document.createElement("section");
   contacto.setAttribute("id", "contacto");
-  contacto.classList.add("bg-dark", "text-white");
+  contacto.classList.add("bg-dark", "text-white", "bg-gradient");
 
   contacto.innerHTML = `
     <div class="container">      

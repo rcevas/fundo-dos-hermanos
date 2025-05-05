@@ -8,7 +8,7 @@ export function Precios() {
       <h2 class="text-center mb-5">Precios</h2>
       <div class="row g-4">
         <div class="col-lg-6">
-          <div class="card text-center border-primary h-100">
+          <div class="card text-center border-primary h-100 shadow">
             <div class="card-header bg-primary text-white">
               Paquete de caza
             </div>
@@ -26,7 +26,7 @@ export function Precios() {
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="card text-center border-success h-100">
+          <div class="card text-center border-success h-100 shadow">
             <div class="card-header bg-success text-white">
               Paquete de pezca
             </div>

@@ -7,7 +7,7 @@ export function Servicios() {
       <h2 class="text-center mb-5">Servicios</h2>
       <div class="row g-4">
         <div class="col-lg-6">
-          <div class="card h-100 shadow bg-dark text-white">
+          <div class="card h-100 shadow text-white shadow">
             <img src="https://placehold.co/400x400" class="card-img" alt="Expediciones de caza">
             <div class="card-img-overlay text-center">
               <h3 class="card-title">Expediciones de caza</h3>
@@ -18,7 +18,7 @@ export function Servicios() {
           </div>
         </div>
         <div class="col-lg-6"> 
-          <div class="card h-100 shadow bg-dark text-white">
+          <div class="card h-100 shadow text-white shadow">
             <img src="https://placehold.co/400x400" class="card-img" alt="Expediciones de pesca">
             <div class="card-img-overlay text-center">
               <h3 class="card-title">Expediciones de pesca</h3>

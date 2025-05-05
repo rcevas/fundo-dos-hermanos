@@ -5,6 +5,7 @@ export function NavBar() {
     "navbar-expand-lg",
     "navbar-dark",
     "bg-dark",
+    "bg-gradient",
     "fixed-top"
   );
 
