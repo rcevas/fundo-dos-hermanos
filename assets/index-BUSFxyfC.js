@@ -26,7 +26,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 text-center text-lg-start">
-          <h2>Quienes Somos</h2>
+          <h2 class="text-primary">Quienes Somos</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col-lg-6 text-center">
@@ -36,7 +36,7 @@
     </div> 
   `,e}function u(){const e=document.createElement("section");return e.setAttribute("id","destino"),e.innerHTML=`
     <div class="container pb-5">
-      <h2 class="text-center mb-4">Destino</h2>
+      <h2 class="text-center text-primary mb-4">Destino</h2>
       <p class="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="row align-items-center ">
         <div class="col-lg-6 text-center">
@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <p class="display-6 text-center my-4">¡Vive la experiencia en Fundo Dos Hermanos!</p>
+    <p class="display-6 text-center text-success my-4">¡Vive la experiencia en Fundo Dos Hermanos!</p>
     <div id="carousel_destino" class="carousel slide mt-5" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -68,14 +68,22 @@
           <img src="https://placehold.co/1920x800" class="d-block w-100" alt="...">
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   `,e}function m(){const e=document.createElement("section");return e.setAttribute("id","servicios"),e.innerHTML=`
     <div class="container">
-      <h2 class="text-center mb-5">Servicios</h2>
+      <h2 class="text-center text-primary mb-5">Servicios</h2>
       <div class="row g-4">
         <div class="col-lg-6">
           <div class="card h-100 shadow text-white shadow">
-            <img src="https://placehold.co/400x400" class="card-img" alt="Expediciones de caza">
+            <img src="https://placehold.co/400x700" class="card-img" alt="Expediciones de caza">
             <div class="card-img-overlay text-center">
               <h3 class="card-title">Expediciones de caza</h3>
               <p class="card-text">Experiencia casi exclusivamente a la caza de ciervo rojo (Cervus Elaphus) en distintos ambientes que nos ofrecen los dominios de Fundo Dos Hermanos con extensos valles abiertos, bosques de lengas en altura con escaso sotobosque así como sectores de fachinales y quebradas.</p> 
@@ -97,7 +105,7 @@
     </div>
   `,e}function p(){const e=document.createElement("section");return e.setAttribute("id","precios"),e.classList.add("bg-light"),e.innerHTML=`
     <div class="container">
-      <h2 class="text-center mb-5">Precios</h2>
+      <h2 class="text-center text-primary mb-5">Precios</h2>
       <div class="row g-4">
         <div class="col-lg-6">
           <div class="card text-center border-primary h-100 shadow">
@@ -136,7 +144,26 @@
           </div>
         </div>
       </div>
-      <p class="text-center mt-4">Forma de pago mediante transferencia bancaria, 50% al momento de efectuar la reserva.</p>
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </symbol>
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+        </symbol>
+        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </symbol>
+      </svg>
+      <div class="alert alert-primary d-flex align-items-center mt-5 shadow" role="alert">
+        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+        <div>
+          <ul>
+            <li>Las reservas se hacen a través del email de contacto: <a class="ms-2 text-decoration-none" href="mailto:fundodoshermanos@gmail.com">fundodoshermanos@gmail.com</a></li>
+            <li>Forma de pago mediante transferencia bancaria, 50% al momento de efectuar la reserva.</li>
+            <li>Forma de pago y condiciones se comunicará al momento de efectuar la reserva.</li>
+          </ul>          
+        </div>     
     </div>
   `,e}function v(){const e=document.createElement("section");return e.setAttribute("id","contacto"),e.classList.add("bg-dark","text-white","bg-gradient"),e.innerHTML=`
     <div class="container">      
@@ -155,6 +182,6 @@
         </div>
       </div>
     </div>
-  `,e}function g(){const e=document.createElement("footer");return e.classList.add("bg-black","bg-gradient","text-light","text-center","p-3"),e.innerHTML=`
+  `,e}function b(){const e=document.createElement("footer");return e.classList.add("bg-black","bg-gradient","text-light","text-center","p-3"),e.innerHTML=`
     <small>© 2025 Fundo Dos Hermanos. All rights reserved.</small>
-  `,e}document.querySelector("#app").append(c(),r(),d(),u(),m(),p(),v(),g());const b=document.querySelectorAll(".navbar-nav .nav-link"),l=document.querySelector(".navbar-collapse");b.forEach(e=>{e.addEventListener("click",()=>{l.classList.contains("show")&&new bootstrap.Collapse(l).hide()})});
+  `,e}document.querySelector("#app").append(c(),r(),d(),u(),m(),p(),v(),b());const g=document.querySelectorAll(".navbar-nav .nav-link"),l=document.querySelector(".navbar-collapse");g.forEach(e=>{e.addEventListener("click",()=>{l.classList.contains("show")&&new bootstrap.Collapse(l).hide()})});
