@@ -1,12 +1,12 @@
 import "./style.css";
-import { NavBar } from "./components/NavBar.js";
-import { Inicio } from "./components/Inicio.js";
-import { QuienesSomos } from "./components/QuienesSomos.js";
-import { Destino } from "./components/Destino.js";
-import { Servicios } from "./components/Servicios.js";
-import { Precios } from "./components/Precios.js";
-import { Contacto } from "./components/Contacto.js";
-import { Footer } from "./components/Footer.js";
+import { NavBar } from "./components/navbar/NavBar.js";
+import { Inicio } from "./components/inicio/Inicio.js";
+import { QuienesSomos } from "./components/quienes-somos/QuienesSomos.js";
+import { Destino } from "./components/destino/Destino.js";
+import { Servicios } from "./components/servicios/Servicios.js";
+import { Precios } from "./components/precios/Precios.js";
+import { Contacto } from "./components/contacto/Contacto.js";
+import { Footer } from "./components/footer/Footer.js";
 
 document
   .querySelector("#app")
