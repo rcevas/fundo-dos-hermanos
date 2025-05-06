@@ -43,3 +43,7 @@ header .container {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+#precios ul {
+  margin-bottom: 0;
+}
