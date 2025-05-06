@@ -4,7 +4,7 @@ export function Servicios() {
 
   servicios.innerHTML = `
     <div class="container">
-      <h2 class="text-center mb-5">Servicios</h2>
+      <h2 class="text-center text-primary mb-5">Servicios</h2>
       <div class="row g-4">
         <div class="col-lg-6">
           <div class="card h-100 shadow text-white shadow">

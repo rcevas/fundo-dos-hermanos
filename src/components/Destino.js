@@ -4,7 +4,7 @@ export function Destino() {
 
   destino.innerHTML = `
     <div class="container pb-5">
-      <h2 class="text-center mb-4">Destino</h2>
+      <h2 class="text-center text-primary mb-4">Destino</h2>
       <p class="text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="row align-items-center ">
         <div class="col-lg-6 text-center">
@@ -23,7 +23,7 @@ export function Destino() {
         </div>
       </div>
     </div>
-    <p class="display-6 text-center my-4">¡Vive la experiencia en Fundo Dos Hermanos!</p>
+    <p class="display-6 text-center text-success my-4">¡Vive la experiencia en Fundo Dos Hermanos!</p>
     <div id="carousel_destino" class="carousel slide mt-5" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">

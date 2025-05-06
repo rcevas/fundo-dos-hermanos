@@ -5,7 +5,7 @@ export function Precios() {
 
   precios.innerHTML = `
     <div class="container">
-      <h2 class="text-center mb-5">Precios</h2>
+      <h2 class="text-center text-primary mb-5">Precios</h2>
       <div class="row g-4">
         <div class="col-lg-6">
           <div class="card text-center border-primary h-100 shadow">
