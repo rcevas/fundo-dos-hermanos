@@ -27,6 +27,12 @@ header .container {
   text-align: center;
 }
 
+#servicios .card-img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover
+}
+
 #servicios .card-img-overlay {
   align-content: center;
   content: "";

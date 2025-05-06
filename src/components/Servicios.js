@@ -8,7 +8,7 @@ export function Servicios() {
       <div class="row g-4">
         <div class="col-lg-6">
           <div class="card h-100 shadow text-white shadow">
-            <img src="https://placehold.co/400x400" class="card-img" alt="Expediciones de caza">
+            <img src="https://placehold.co/400x700" class="card-img" alt="Expediciones de caza">
             <div class="card-img-overlay text-center">
               <h3 class="card-title">Expediciones de caza</h3>
               <p class="card-text">Experiencia casi exclusivamente a la caza de ciervo rojo (Cervus Elaphus) en distintos ambientes que nos ofrecen los dominios de Fundo Dos Hermanos con extensos valles abiertos, bosques de lengas en altura con escaso sotobosque así como sectores de fachinales y quebradas.</p> 
