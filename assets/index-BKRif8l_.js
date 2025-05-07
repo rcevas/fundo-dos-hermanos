@@ -1,4 +1,4 @@
-(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))o(a);new MutationObserver(a=>{for(const i of a)if(i.type==="childList")for(const t of i.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&o(t)}).observe(document,{childList:!0,subtree:!0});function n(a){const i={};return a.integrity&&(i.integrity=a.integrity),a.referrerPolicy&&(i.referrerPolicy=a.referrerPolicy),a.crossOrigin==="use-credentials"?i.credentials="include":a.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function o(a){if(a.ep)return;a.ep=!0;const i=n(a);fetch(a.href,i)}})();function c(){const e=document.createElement("nav");return e.classList.add("navbar","navbar-expand-lg","navbar-dark","bg-dark","bg-gradient","fixed-top"),e.innerHTML=`
+(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))o(a);new MutationObserver(a=>{for(const i of a)if(i.type==="childList")for(const s of i.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&o(s)}).observe(document,{childList:!0,subtree:!0});function n(a){const i={};return a.integrity&&(i.integrity=a.integrity),a.referrerPolicy&&(i.referrerPolicy=a.referrerPolicy),a.crossOrigin==="use-credentials"?i.credentials="include":a.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function o(a){if(a.ep)return;a.ep=!0;const i=n(a);fetch(a.href,i)}})();function r(){const e=document.createElement("nav");return e.classList.add("navbar","navbar-expand-lg","navbar-dark","bg-dark","bg-gradient","fixed-top"),e.innerHTML=`
     <div class="container">
       <a class="navbar-brand" href="#">Fundo Dos Hermanos</a>
       <button
@@ -29,7 +29,7 @@
         </ul>
       </div>
     </div>
-  `,e}function r(){const e=document.createElement("header");return e.setAttribute("id","inicio"),e.innerHTML=`
+  `,e}function c(){const e=document.createElement("header");return e.setAttribute("id","inicio"),e.innerHTML=`
     <div class="container text-white">
       <p class="display-6">TURISMO CINEGÉTICO EN LA PATAGONIA CHILENA</p>
       <p class="display-6">Explora lo salvaje</p>
@@ -110,48 +110,34 @@
         </div>
       </div>
     </div>
+
     <p class="display-6 text-center text-success my-4">
       ¡Vive la experiencia en Fundo Dos Hermanos!
     </p>
+
+
     <div id="carousel_destino" class="carousel slide mt-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel_destino" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel_destino" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel_destino" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="https://placehold.co/1920x800"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="https://placehold.co/1920x720" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img
-            src="https://placehold.co/1920x800"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="https://placehold.co/1920x720" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img
-            src="https://placehold.co/1920x800"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="https://placehold.co/1920x720" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel_destino" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel_destino" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -341,4 +327,4 @@
     </div>
   `,e}function b(){const e=document.createElement("footer");return e.classList.add("bg-black","bg-gradient","text-light","text-center","p-3"),e.innerHTML=`
     <small>© 2025 Fundo Dos Hermanos. All rights reserved.</small>
-  `,e}document.querySelector("#app").append(c(),r(),d(),u(),m(),p(),v(),b());const g=document.querySelectorAll(".navbar-nav .nav-link"),l=document.querySelector(".navbar-collapse");g.forEach(e=>{e.addEventListener("click",()=>{l.classList.contains("show")&&new bootstrap.Collapse(l).hide()})});
+  `,e}document.querySelector("#app").append(r(),c(),d(),u(),m(),p(),v(),b());const g=document.querySelectorAll(".navbar-nav .nav-link"),l=document.querySelector(".navbar-collapse");g.forEach(e=>{e.addEventListener("click",()=>{l.classList.contains("show")&&new bootstrap.Collapse(l).hide()})});
