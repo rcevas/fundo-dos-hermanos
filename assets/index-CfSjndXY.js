@@ -1,4 +1,4 @@
-(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))o(a);new MutationObserver(a=>{for(const i of a)if(i.type==="childList")for(const s of i.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&o(s)}).observe(document,{childList:!0,subtree:!0});function n(a){const i={};return a.integrity&&(i.integrity=a.integrity),a.referrerPolicy&&(i.referrerPolicy=a.referrerPolicy),a.crossOrigin==="use-credentials"?i.credentials="include":a.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function o(a){if(a.ep)return;a.ep=!0;const i=n(a);fetch(a.href,i)}})();function r(){const e=document.createElement("nav");return e.classList.add("navbar","navbar-expand-lg","navbar-dark","bg-dark","bg-gradient","fixed-top"),e.innerHTML=`
+(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const a of document.querySelectorAll('link[rel="modulepreload"]'))o(a);new MutationObserver(a=>{for(const t of a)if(t.type==="childList")for(const s of t.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&o(s)}).observe(document,{childList:!0,subtree:!0});function n(a){const t={};return a.integrity&&(t.integrity=a.integrity),a.referrerPolicy&&(t.referrerPolicy=a.referrerPolicy),a.crossOrigin==="use-credentials"?t.credentials="include":a.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function o(a){if(a.ep)return;a.ep=!0;const t=n(a);fetch(a.href,t)}})();function r(){const e=document.createElement("nav");return e.classList.add("navbar","navbar-expand-lg","navbar-dark","bg-dark","bg-gradient","fixed-top"),e.innerHTML=`
     <div class="container">
       <a class="navbar-brand" href="#">Fundo Dos Hermanos</a>
       <button
@@ -14,17 +14,23 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
+            <a class="nav-link text-light" href="#inicio">Inicio</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#destino">Destino</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link text-light" href="#quienes_somos">Quienes Somos</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#precios">Precios</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link text-light" href="#destino">Destino</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#precios">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
