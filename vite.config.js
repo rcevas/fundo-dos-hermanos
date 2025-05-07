@@ -1,3 +1,3 @@
 export default {
-  base: "/fundo-dos-hermanos/"
+  base: "/fundo-dos-hermanos/",
 };
