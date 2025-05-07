@@ -25,17 +25,23 @@ export function NavBar() {
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
+            <a class="nav-link text-light" href="#inicio">Inicio</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#destino">Destino</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#servicios">Servicios</a>
+            <a class="nav-link text-light" href="#quienes_somos">Quienes Somos</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#precios">Precios</a></li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
+            <a class="nav-link text-light" href="#destino">Destino</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#precios">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
